@@ -18,9 +18,12 @@ export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
 	color: #030e12;
+	margin-top:40px;
 	margin-bottom: 16px;
+	margin-left: 450px;
+	margin-right: 450px;
 	transition: .3s ease;
-	position: relative;
+	position: absolute;
 	left: 0;
 
 	&:hover {
@@ -35,11 +38,11 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 13px;
-		line-height: 14px;
-		margin-bottom: 8px;
-		display: flex;
-		align-items: center;
+		line-height: 18px;
+		font-size: 14px;
+		margin-right:10px;
+		margin-left:10px;
+		position: absolute;
 	}
 `
 
@@ -87,6 +90,7 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
+	margin-top: 50px;
 	padding: 1rem;
 
 	@media ${props => props.theme.breakpoints.md}{
@@ -156,4 +160,5 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+
 `

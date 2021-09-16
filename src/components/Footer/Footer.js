@@ -21,6 +21,7 @@ const Footer = () => {
       </LinkItem>
       </LinkColumn>
       </LinkList>
+      <br/><br/>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>"You are only as good as your<br/> record collection" - Dj Spooky</Slogan>
@@ -37,9 +38,13 @@ const Footer = () => {
         </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
-      <footer style={{  display: 'flex', alignItems: 'center', justifyContent: 'center', color:"#030e12" }}>© Hasib, 2021</footer>
+     
     </FooterWrapper>
   );
+
+
 };
 
 export default Footer;
+
+
